@@ -2,12 +2,29 @@
 <html>
 
 <head>
-    <title>quick start</title>
-</head >
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="gym project HTML5 structure">
+    <title>About</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" type="image/png" href="template_section/footer">
+    <link rel="icon" type="image/png" href="images/dumbell icon.png">
+</head>
 
 <body>
-    <h1>quick start page</h1>
-    <P>this is the quick start page
+    <header>
+        <a href="index.html"><img class="logo" src="images/dumbell icon.png" alt="dumbell"></a>
+        <nav>
+            <ul>
+                <li id="active"> <a href="help.html">Help</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        <h1>Quick start plan</h1>
+    </header>
+
+    
+    <P>This is the quick start page
         Start with small, consistent actions instead of big, intimidating changes:
 
         Set a simple goal. For example: “Go to the gym twice this week.”
@@ -16,6 +33,52 @@
         Track wins. Every workout counts, no matter how small.
         Rest and recover. Confidence comes from consistency, not burnout.
     </P>
+    <table class="gym-table">
+  <tr>
+    <th>Workout</th>
+    <th>Time(30 min)</th>
+    <th>Calories Burned</th>
+  </tr>
+  <tr>
+    <td>Running</td>
+    <td>30</td>
+    <td>300</td>
+  </tr>
+  <tr>
+    <td>Weight lifting</td>
+    <td>45</td>
+    <td>250</td>
+  </tr>
+  <tr>
+    <td>Cycling</td>
+    <td>30</td>
+    <td>280</td>
+  </tr>
+</table>
 
+<h4>Contact us</h4>
+<form class="contact-form">
+
+  <label>Name <span class="required">*</span></label><br>
+  <input type="text" placeholder="Enter your name" required><br><br>
+
+  <label>Email <span class="required">*</span></label><br>
+  <input type="email" placeholder="Enter your email" required><br><br>
+
+  <label>Age <span class="requ  ired">*</span></label><br>
+  <input type="number" min="12" max="100" required><br><br>
+
+  <label>Phone Number <span class="required">*</span></label><br>
+  <input type="tel" placeholder="e.g. 0871234567" required><br><br>
+
+  <label>Message</label><br>
+  <textarea rows="4" placeholder="Enter your message"></textarea><br><br>
+
+  <input type="submit" value="Send">
+
+</form>
+<footer>
+  <p>&copy; 2026 Gym Website. All rights reserved.</p>
+</footer>
 </body>
 </html>
