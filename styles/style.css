@@ -272,4 +272,7 @@ h4 {
   display: inline-block;
   margin: 15px;
 }
+.footer p {
+ text-align: center;
+}
 
